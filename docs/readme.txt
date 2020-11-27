@@ -1,1 +1,1 @@
-Meu portifólio e currículo com um design intuitiv.
+Meu portifólio e currículo com um design intuitivo.
