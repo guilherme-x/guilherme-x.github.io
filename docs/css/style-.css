@@ -41,9 +41,9 @@ a {
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
-  color: #B654FF; }
+  color: #bac964; }
   a:hover, a:focus, a:active {
-    color: #3d227d;
+    color: #b2c251;
     text-decoration: none; }
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
@@ -94,7 +94,7 @@ a {
       .site-navbar .navbar-nav > li > a {
         color: rgba(0, 0, 0, 0.7) !important; } }
   .site-navbar .navbar-nav.active > a {
-    color: #B654FF !important; }
+    color: #bac964 !important; }
   .site-navbar.scrolled {
     background: #fff;
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
@@ -127,7 +127,7 @@ a {
       -webkit-transform: translateY(-100%);
       -ms-transform: translateY(-100%);
       transform: translateY(-100%);
-      background: #B654FF !important; }
+      background: #bac964 !important; }
     .site-navbar.scrolled .navbar-brand {
       color: #000; }
     .site-navbar.scrolled .dropdown > a:before {
@@ -135,11 +135,11 @@ a {
     .site-navbar.scrolled .navbar-nav > li > a {
       color: rgba(0, 0, 0, 0.7) !important; }
       .site-navbar.scrolled .navbar-nav > li > a:hover {
-        color: #B654FF !important; }
+        color: #bac964 !important; }
       .site-navbar.scrolled .navbar-nav > li > a.active {
-        color: #B654FF !important; }
+        color: #bac964 !important; }
     .site-navbar.scrolled .navbar-nav > li.active > a {
-      color: #B654FF !important; }
+      color: #bac964 !important; }
 
 .site-hero {
   background-color: #ccc;
@@ -210,7 +210,7 @@ a {
     display: block;
     margin-bottom: 50px;
     background: #edf0f2;
-    background: #B654FF;
+    background: #bac964;
     width: 100px;
     height: 100px;
     position: relative;
@@ -257,7 +257,7 @@ a {
     .site-list li.site-check {
       padding-left: 30px; }
       .site-list li.site-check:before {
-        color: #B654FF;
+        color: #bac964;
         font-size: 16px;
         content: "\ebd3"; }
 
@@ -271,22 +271,20 @@ a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    background-color: #B654FF;
-    border-color: #3d227d;
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-      background: #3d227d; }
+      background: #b2c251; }
 
 .progress {
   overflow: visible;
   margin-bottom: 26px;
   height: 4px; }
   .progress .progress-bar {
-    background-color: #B654FF;
+    background-color: #bac964;
     position: relative;
     border-radius: 4px; }
     .progress .progress-bar span {
-      background-color: #B654FF;
+      background-color: #bac964;
       position: absolute;
       bottom: -20px;
       font-size: 10px;
@@ -304,7 +302,7 @@ a {
       position: absolute;
       pointer-events: none;
       border-color: rgba(255, 255, 255, 0);
-      border-bottom-color: #B654FF;
+      border-bottom-color: #bac964;
       border-width: 5px;
       margin-left: -5px; }
 
@@ -324,9 +322,9 @@ a {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
       .filters ul li:hover {
-        color: #B654FF; }
+        color: #bac964; }
       .filters ul li.active {
-        color: #B654FF; }
+        color: #bac964; }
 
 .single-portfolio {
   margin-bottom: 50px;
@@ -345,7 +343,7 @@ a {
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
   color: #fff;
-  background-color: #B654FF;
+  background-color: #bac964;
   margin-left: auto;
   margin-right: auto; }
 
@@ -387,7 +385,7 @@ a {
   transition: width 350ms ease-out; }
 
 .portfolio-area .filters ul li.active {
-  color: #B654FF; }
+  color: #bac964; }
 
 .portfolio-area .filters-content {
   margin-top: 50px; }
@@ -491,7 +489,7 @@ a {
     display: block;
     font-size: 16px; }
   .resume-item h3 {
-    color: #B654FF;
+    color: #bac964;
     font-size: 20px; }
   .resume-item .school {
     color: rgba(255, 255, 255, 0.3); }
@@ -521,7 +519,7 @@ a {
       .blog-entry .blog-entry-text h3 a {
         color: #fff; }
         .blog-entry .blog-entry-text h3 a:hover {
-          color: #B654FF; }
+          color: #bac964; }
   .blog-entry .meta {
     font-size: 14px; }
     .blog-entry .meta a {
@@ -529,7 +527,7 @@ a {
       margin-right: 10px;
       color: rgba(255, 255, 255, 0.4); }
       .blog-entry .meta a:hover {
-        color: #B654FF; }
+        color: #bac964; }
 
 .form-control {
   border: none !important;

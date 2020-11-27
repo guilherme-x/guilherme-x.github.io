@@ -131,7 +131,7 @@ a {
 		}
 		&.active {
 			> a {
-				color: $primary!important;
+				color: #B654FF!important;
 			}
 		}
 	}
@@ -362,9 +362,9 @@ a {
 		box-shadow: none!important;
 	}
 	&.btn-primary {
-		color: $white;
+		color: #B654FF;
 		&:hover, &:active, &:focus {
-			background: darken($primary, 5%);
+			background: darken(#B654FF, 5%);
 		}
 	}
 }
