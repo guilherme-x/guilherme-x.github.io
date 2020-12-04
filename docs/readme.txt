@@ -1,1 +1,1 @@
-
+Meu portifólio e currículo.
