@@ -140,12 +140,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #bac964;
+  color: #4c0086;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #96a63a;
+    color: #4c0086;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -1985,8 +1985,8 @@ textarea.form-control {
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(186, 201, 100, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(186, 201, 100, 0.25); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(161, 100, 201, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(130, 100, 201, 0.25); }
   .btn.disabled, .btn:disabled {
     opacity: 0.65; }
   .btn:not(:disabled):not(.disabled) {
@@ -1998,15 +1998,15 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #bac964;
-  border-color: #bac964; }
+  background-color: #b654ff;
+  border-color: #c57aff; }
   .btn-primary:hover {
     color: #212529;
-    background-color: #adbf48;
-    border-color: #a7b941; }
+    background-color: #930afc;
+    border-color: #cc88ff; }
   .btn-primary:focus, .btn-primary.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(186, 201, 100, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(186, 201, 100, 0.5); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(156, 100, 201, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(135, 100, 201, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #212529;
     background-color: #bac964;
@@ -2014,12 +2014,12 @@ fieldset:disabled a.btn {
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #212529;
-    background-color: #a7b941;
-    border-color: #9fb03d; }
+    background-color: #b654ff;
+    border-color: #b654ff; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      -webkit-box-shadow: 0 0 0 0.2rem rgba(186, 201, 100, 0.5);
-      box-shadow: 0 0 0 0.2rem rgba(186, 201, 100, 0.5); }
+      -webkit-box-shadow: 0 0 0 0.2rem rgba(147, 100, 201, 0.5);
+      box-shadow: 0 0 0 0.2rem rgba(152, 100, 201, 0.5); }
 
 .btn-secondary {
   color: #fff;
