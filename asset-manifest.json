@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b8d2580.css",
+    "main.js": "/static/js/main.6f98c932.js",
+    "static/media/phonemock.png": "/static/media/phonemock.94fed4f8a064f4061856.png",
+    "index.html": "/index.html",
+    "main.3b8d2580.css.map": "/static/css/main.3b8d2580.css.map",
+    "main.6f98c932.js.map": "/static/js/main.6f98c932.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8d2580.css",
+    "static/js/main.6f98c932.js"
+  ]
+}
