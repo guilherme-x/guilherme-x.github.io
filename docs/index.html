@@ -20,6 +20,7 @@
 	<link rel="shortcut icon" href="images/G.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom-styles.css">
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-R73F04QP95"></script>
@@ -57,7 +58,6 @@
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-					<li class="nav-item"><a class="nav-link active" href="#section-portfolio">Portfolio</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">About me</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
@@ -75,9 +75,13 @@
 				<div class="col-md-10 text-center pt-5">
 
 					<h1 class="site-heading site-animate fadeInUp site-animated">Hi, I am<strong
-							class="my-name d-block"></strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">and this is my Portfolio</strong>
-
+							class="my-name d-block">Guilherme Xavier</strong></h1>
+					<strong class="d-block text-white text-uppercase letter-spacing">Software Engineer & Full-Stack Developer</strong>
+					<p class="mt-4 fade-in-up skills-container">Specialized in <span class="skill-tag">Elixir</span> <span class="skill-tag">Phoenix</span> <span class="skill-tag">GraphQL</span> <span class="skill-tag">React</span></p>
+					<div class="mt-5 fade-in-up button-container">
+						<a href="#section-resume" class="btn btn-primary px-4 py-2 mr-3 mb-2 mb-sm-0 smoothscroll">View My Work</a>
+						<a href="#section-contact" class="btn btn-secondary px-4 py-2 smoothscroll">Contact Me</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -88,7 +92,7 @@
 
 
 
-	<section class="site-section" id="section-portfolio">
+	<!-- <section class="site-section" id="section-portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="section-heading text-center col-md-12">
@@ -189,7 +193,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- .section -->
 
 
@@ -218,54 +222,72 @@
 							complex texts and focused practice. </p>
 						<span class="school">Prime Cursos</span>
 					</div>
-				</div>
-				<div class="col-md-6">
+				</div>				<div class="col-md-6">
 
 
 					<h2 class="mb-5">Experience</h2>
-
+					
 					<div class="resume-item mb-3">
-						<span class="date"><span class="icon-calendar"></span> August 2021 - Currently</span>
-						<h3>Back-End Developer</h3>
-						<p>Working in the credit engine squad, I design and develop solutions to improve the loan
-							application flow using the Elixir framework with Phoenix.
+						<span class="date"><span class="icon-calendar"></span> November 2024 - Present</span>
+						<h3>Software Engineer</h3>
+						<p>Working with functional programming to develop and improve business solutions.</p>
 
 						<ul>
-							<li> Backend development</li>
-							<li> Elixir</li>
-							<li> Phoenix Framework</li>
-							<li> Next Js</li>
-							<li> React Js</li>
-							<li> PostgreSQL</li>
+							<li>Worked on <strong>Elixir/GraphQL</strong> API gateway serving thousands of daily requests</li>
+							<li>Maintained real-time messaging infrastructure using Phoenix/LiveView and OTP</li>
+							<li>Reduced processing latency through custom Oban schedulers and optimized Ecto queries</li>
+							<li>Implemented property-based testing achieving better coverage across mission-critical services</li>
 						</ul>
-						</p>
+						
+						<div class="mt-3">
+							<span class="skill-tag">Elixir</span>
+							<span class="skill-tag">Phoenix</span>
+							<span class="skill-tag">GraphQL</span>
+							<span class="skill-tag">React.js</span>
+						</div>
+						<span class="school">Podium</span>
+					</div>
+
+					<div class="resume-item mb-3">
+						<span class="date"><span class="icon-calendar"></span> August 2021 - November 2024</span>
+						<h3>Back-End Developer</h3>
+						<p>Worked in the credit engine squad, designing and developing solutions to improve the loan
+							application flow using the Elixir framework with Phoenix.</p>
+
+						<ul>
+							<li>Designed and implemented credit scoring API solutions</li>
+							<li>Integrated with banking systems and financial services</li>
+							<li>Optimized database queries for performance and scalability</li>
+							<li>Collaborated in an agile environment with cross-functional teams</li>
+						</ul>
+						
+						<div class="mt-3">
+							<span class="skill-tag">Elixir</span>
+							<span class="skill-tag">Phoenix</span>
+							<span class="skill-tag">Next.js</span>
+							<span class="skill-tag">React.js</span>
+							<span class="skill-tag">PostgreSQL</span>
+						</div>
 						<span class="school">Money Money Invest</span>
 					</div>
 					<div class="resume-item mb-3">
 						<span class="date"><span class="icon-calendar"></span> December 2020 - July 2021</span>
 						<h3>Full Stack Developer</h3>
-						<p>
+						<p>Developed mobile and web applications focused on field service management and route optimization.</p>
 						<ul>
-							<li> Mobile development with React Native</li>
-							<li> Integration with Restfull API's</li>
-							<li> Rest API's with Node.js</li>
-							<li> Process automation and integrations</li>
-							<li> iTecnico: Application made with React Native that helps field technicians to make
-								adjustments in connection and customer registration.</li>
-							<li> Micksell: Mobile and Web platform for tracking routes and auditing approaches made by
-								external vendors in real time.</li>
+							<li>Built iTecnico: A React Native app that helps field technicians make adjustments in connection and customer registration</li>
+							<li>Developed Micksell: Mobile and Web platform for tracking routes and auditing approaches by external vendors in real time</li>
+							<li>Created RESTful APIs with Node.js for mobile application backends</li>
+							<li>Implemented process automation and third-party system integrations</li>
 						</ul>
-						</p>
+						
+						<div class="mt-3">
+							<span class="skill-tag">React Native</span>
+							<span class="skill-tag">Node.js</span>
+							<span class="skill-tag">REST APIs</span>
+							<span class="skill-tag">JavaScript</span>
+						</div>
 						<span class="school">Micks Brasil</span>
-					</div>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> July 2019 - December 2019</span>
-						<h3>Python Developer</h3>
-						<p>I worked on the development of software capable of providing
-							drones with greater autonomy in carrying out agricultural tasks such
-							as providing useful information for good pasture management.</p>
-						<span class="school">HH Drones</span>
 					</div>
 				</div>
 			</div>
@@ -280,21 +302,23 @@
 				</div>
 				<div class="col-lg-5 pl-lg-5">
 					<div class="section-heading">
-						<h2>About <strong>me</strong></h2>
+						<h2>About <strong class="gradient-text">me</strong></h2>
 					</div>
-					<p class="lead">Fisrt and foremost, I am passionate about technology and what it can do.
-						I started coding some programs for computional vision as college homework and loved it,
-						since then i've been looking for new ways and technollogies to solve problems.
+					<p class="lead">First and foremost, I am passionate about technology and its transformative potential.
+						My journey began with computational vision programming during college, and I've been captivated by
+						software development ever since.
 					</p>
-					<p class="mb-5  ">I'm currently working with some tools and programming languages such as Elixir
-						with phoenix
-						framework, PostgreSQL, ReactJs and NodeJs.
-						As a programming lover, I'm always open to improve and learn new skills.</p>
+					<p class="mb-5">I'm currently specializing in functional programming with <span class="skill-tag">Elixir</span>
+						and the <span class="skill-tag">Phoenix Framework</span>, along with modern frontend technologies like
+						<span class="skill-tag">React.js</span>. My expertise in building scalable backend systems is complemented
+						by experience with <span class="skill-tag">GraphQL</span> and <span class="skill-tag">PostgreSQL</span>.
+						As a programming enthusiast, I'm constantly seeking to expand my skills and embrace new technologies.
+					</p>
 
 					<p>
-						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm mr-5 smoothscroll">Hire
+						<a href="#section-contact" class="btn btn-primary px-4 py-2 mr-3 smoothscroll">Hire
 							me</a>
-						<a href="Guilherme-Xavier.pdf" download class="btn btn-secondary px-4 py-2 btn-sm">Download
+						<a href="Guilherme-Xavier.pdf" download class="btn btn-secondary px-4 py-2">Download
 							CV</a>
 					</p>
 				</div>
@@ -313,7 +337,7 @@
 			<div class="row mb-4">
 				<div class="col-md-12">
 					<div class="section-heading text-center">
-						<h2>My <strong>services</strong></h2>
+						<h2>My <strong class="gradient-text">services</strong></h2>
 					</div>
 				</div>
 			</div>
@@ -323,10 +347,13 @@
 						<span class="icon">
 							<span class="icon-code"></span>
 						</span>
-						<h3 class="mb-4">Software Development</h3>
-						<p>Web and API development in Elixir using tools like Phoenix, Ecto and Oban and in Node.Js
-							using Express.</p>
-						<p><a href="#" class="site-link">Know more<i class="icon-chevron-right"></i></a></p>
+						<h3 class="mb-4">Backend Development</h3>
+						<p>Scalable API development with Elixir/Phoenix and optimized database solutions. Specialized in GraphQL APIs, messaging systems, and high-performance server applications.</p>
+						<div class="mt-3">
+							<span class="skill-tag">Elixir</span>
+							<span class="skill-tag">Phoenix</span>
+							<span class="skill-tag">GraphQL</span>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-4 text-center mb-5">
@@ -335,9 +362,12 @@
 							<span class="icon-mobile"></span>
 						</span>
 						<h3 class="mb-4">Mobile Development</h3>
-						<p>Desenvolvimento de aplicativos para dispositivos Android e IOS utilizando o React Native e
-							suas ferramentas.</p>
-						<p><a href="#" class="site-link">Know more<i class="icon-chevron-right"></i></a></p>
+						<p>Creating beautiful, responsive applications for iOS and Android platforms using React Native. Focus on performance optimization and seamless user experience.</p>
+						<div class="mt-3">
+							<span class="skill-tag">React Native</span>
+							<span class="skill-tag">JavaScript</span>
+							<span class="skill-tag">Mobile UX</span>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-4 text-center mb-5">
@@ -345,10 +375,13 @@
 						<span class="icon">
 							<span class="icon-browser2"></span>
 						</span>
-						<h3 class="mb-4">Web Design</h3>
-						<p>Creation of websites and WebApps using the most current tools with perfect adaptation to the
-							more diverse devices.</p>
-						<p><a href="#" class="site-link">Know more<i class="icon-chevron-right"></i></a></p>
+						<h3 class="mb-4">Frontend Development</h3>
+						<p>Modern web applications built with React.js and Next.js. Focused on creating responsive, accessible, and visually appealing user interfaces with optimal performance.</p>
+						<div class="mt-3">
+							<span class="skill-tag">React.js</span>
+							<span class="skill-tag">Next.js</span>
+							<span class="skill-tag">Responsive Design</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -365,7 +398,8 @@
 			<div class="row">
 				<div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
-						<h2>Get <strong> in touch</strong> with me.</h2>
+						<h2>Get <strong class="gradient-text">in touch</strong> with me</h2>
+						<p class="mt-4">Interested in working together or have questions about my services? Send me a message!</p>
 					</div>
 				</div>
 
@@ -403,11 +437,6 @@
 							contato@guixavier.com.br
 						</li>
 						<li>
-							<span class="text-uppercase">Phone</span>
-							+55 77 99142 9710
-						</li>
-
-						<li>
 							<span class="text-uppercase">Address</span>Guanambi - BA<br><br>
 						</li>
 					</ul>
@@ -419,24 +448,23 @@
 
 	<footer class="site-footer">
 		<div class="container">
-
-
-
-			<div class="row mb-5">
+			<div class="row mb-4">
 				<div class="col-md-12 text-center">
+					<h3 class="gradient-text mb-4">Guilherme Xavier</h3>
+					<p class="mb-4">Software Engineer & Full-Stack Developer</p>
 					<p>
-						<a href="https://www.facebook.com/guixavier.s/" target="_blank" class="social-item"><span
-								class="icon-facebook2"></span></a>
-						<a href="https://twitter.com/_guilhrm_e" target="_blank" class="social-item"><span
-								class="icon-twitter"></span></a>
-						<a href="http://instagram.com/guilhrm.e" target="_blank" class="social-item"><span
-								class="icon-instagram2"></span></a>
 						<a href="https://www.linkedin.com/in/guilherme-xavier-developer/" target="_blank"
 							class="social-item"><span class="icon-linkedin2"></span></a>
+						<a href="https://github.com/guilherme-x" target="_blank"
+							class="social-item"><span class="icon-github"></span></a>
 					</p>
 				</div>
 			</div>
-
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p class="mt-4">&copy; <script>document.write(new Date().getFullYear())</script> Guilherme Xavier. All Rights Reserved.</p>
+				</div>
+			</div>
 		</div>
 	</footer>
 

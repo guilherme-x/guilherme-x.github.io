@@ -320,6 +320,9 @@
 	var txt = "Guilherme Xavier"
 	var speed = 100; /* The speed/duration of the effect in milliseconds */
 	function typeWriter() {
+		if (i == 0) {
+			document.getElementsByClassName("my-name")[0].innerHTML = ""; // Clear the element first
+		}
 		if (i < txt.length) {
 			document.getElementsByClassName("my-name")[0].innerHTML += txt.charAt(i);
 			i++;
