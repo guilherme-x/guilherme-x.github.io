@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
 
 <head>
-	<title>Guilherme Xavier</title>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Guilherme Xavier — Software Engineer</title>
 	<meta name="title" content="Guilherme Xavier - Portfolio">
 	<meta name="description"
-		content="Web and mobile application developer with over three years of professional experience. Focused on functional web application architecture using Elixir, Phoenix, React.js and React Native.">
-	<meta name="keywords" content="design, web design, programação, portfólio, guilherme xavier">
+		content="Software engineer with five years of experience building back-end systems that stay fast under load: GraphQL gateways, real-time messaging on Phoenix and OTP, credit engines, and the React interfaces on top of them.">
+	<meta name="keywords" content="elixir, phoenix, graphql, react, software engineer, portfólio, guilherme xavier">
 	<meta name="robots" content="index, follow">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="English">
 	<meta name="author" content="Guilherme Xavier">
-	<meta charset="utf-8">
-	<meta property="og:image" content="https://guilherme-x.github.io/images/tech2.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<meta property="og:title" content="Guilherme Xavier — Software Engineer">
+	<meta property="og:description"
+		content="Back-end systems on Elixir and Phoenix: GraphQL gateways, real-time messaging, and the React interfaces on top of them.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://guixavier.com.br/">
+	<meta property="og:image" content="https://guixavier.com.br/images/tech2.png">
+
 	<link rel="shortcut icon" href="images/G.png" type="image/x-icon">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/custom-styles.css">
-	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Barlow+Condensed:wght@400;600&display=swap">
+	<link rel="stylesheet" href="css/industry.css">
+	<link rel="stylesheet" href="css/portfolio.css">
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-R73F04QP95"></script>
 	<script>
@@ -30,466 +37,375 @@
 		gtag('js', new Date());
 		gtag('config', 'G-R73F04QP95');
 	</script>
-
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
-	<script>
-		var k = urlParams.get('s');
-		if (k == 1) {
-			console.log("Enviou");
-			alert("Mensagem Enviada :)");
-		};
-	</script>
-
 </head>
 
-<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+<body>
 
-
-
-	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light scrolled" id="pb-navbar">
-
-		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-				aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-
-			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-about">About me</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
-				</ul>
-			</div>
+	<nav class="nav gx-nav">
+		<a href="#top" class="nav-brand">Guilherme Xavier</a>
+		<div class="gx-navlinks">
+			<a href="#experience">Experience</a>
+			<a href="#services">Services</a>
+			<a href="#about">About</a>
 		</div>
+		<a class="btn btn-primary" href="#contact">Say hello</a>
 	</nav>
 
+	<main>
 
-
-
-	<section class="site-hero" style="background-image: url(images/tech.png);" id="section-home">
-		<div class="container">
-			<div class="row intro-text align-items-center justify-content-center">
-				<div class="col-md-10 text-center pt-5">
-
-					<h1 class="site-heading site-animate fadeInUp site-animated">Hi, I am<strong
-							class="my-name d-block">Guilherme Xavier</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">Software Engineer & Full-Stack Developer</strong>
-					<p class="mt-4 fade-in-up skills-container">Specialized in <span class="skill-tag">Elixir</span> <span class="skill-tag">Phoenix</span> <span class="skill-tag">GraphQL</span> <span class="skill-tag">React</span></p>
-					<div class="mt-5 fade-in-up button-container">
-						<a href="#section-resume" class="btn btn-primary px-4 py-2 mr-3 mb-2 mb-sm-0 smoothscroll">View My Work</a>
-						<a href="#section-contact" class="btn btn-secondary px-4 py-2 smoothscroll">Contact Me</a>
-					</div>
+	<section id="top" class="gx-hero-section">
+		<div class="gx-grid-bg" aria-hidden="true"></div>
+		<div class="gx-hero">
+			<div class="gx-hero-copy" data-reveal="0">
+				<p class="gx-status">
+					<span class="gx-dot" aria-hidden="true"></span>
+					<span>Currently · Software Engineer at Podium</span>
+				</p>
+				<h1>
+					<span>Software engineer.</span>
+					<span class="gx-accent">Elixir at the core.</span>
+				</h1>
+				<p class="gx-lede">Olá. I build back-end systems that stay fast under load: GraphQL gateways, real-time
+					messaging on Phoenix and OTP, credit engines, and the React interfaces on top of them. Five years in,
+					working from Brazil.</p>
+				<div class="gx-actions">
+					<a class="btn btn-primary" href="#experience">See experience</a>
+					<a class="btn btn-secondary" href="Guilherme-Xavier.pdf">Download CV</a>
+				</div>
+				<div class="gx-tags">
+					<span class="tag tag-accent">Elixir</span>
+					<span class="tag tag-accent">Phoenix</span>
+					<span class="tag tag-accent">GraphQL</span>
+					<span class="tag tag-accent">React</span>
+					<span class="tag tag-accent">PostgreSQL</span>
 				</div>
 			</div>
-		</div>
-	</section> <!-- section -->
-
-
-
-
-
-
-	<!-- <section class="site-section" id="section-portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="section-heading text-center col-md-12">
-					<h2>Portfolio<strong> Highlights</strong></h2>
-				</div>
-			</div>
-			<div class="filters">
-				<ul>
-					<li class="active" data-filter="*">Todos</li>
-					<li data-filter=".frontend">Front-End</li>
-					<li data-filter=".backend">Back-End</li>
-					<li data-filter=".mobile">Mobile</li>
-					<li data-filter=".design">Design</li>
-				</ul>
-			</div>
-
-			<div class="filters-content">
-				<div class="row grid" style="position: relative; height: 948.578px;">
-					<div class="single-portfolio col-sm-4 all frontend mobile backend"
-						style="position: absolute; left: 0%; top: 0px;">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/avant.png" alt="">
-							</div>
-							<a href="https://play.google.com/store/apps/details?id=com.guilhermex.avant"
-								class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4><a href="https://play.google.com/store/apps/details?id=com.guilhermex.avant">Avant
-									ERP</a></h4>
-							<div class="cat">WEB AND MOBILE</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all frontend" style="position: absolute; left: 0%; top: 0px;">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/hackathon.png" alt="">
-							</div>
-							<a href="#" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4>HackathoN</h4>
-							<div class="cat">Front-End</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all backend"
-						style="position: absolute; left: 33.3319%; top: 0px;">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/print.png" alt="">
-							</div>
-							<a href="#" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4>Peso Rápido</h4>
-							<div class="cat">Back-End</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all mobile"
-						style="position: absolute; left: 66.6639%; top: 0px;">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/carro-limpo.png" alt="">
-							</div>
-							<a href="#" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
-									</div>
-								</div>
-							</a>
-
-						</div>
-						<div class="p-inner">
-							<h4>Carro Limpo: App for car wash.</h4>
-							<div class="cat">mobile</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- .section -->
-
-
-	<section class="site-section " id="section-resume">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mb-5">
-					<div class="section-heading text-center">
-						<h2>My <strong>Resume</strong></h2>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<h2 class="mb-5">Education</h2>
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> June 2018 - Currently</span>
-						<h3>Systems Development and Analysis Degree</h3>
-						<p> Web and mobile development, Databases and Information Security
-							are my strengths in the course.</p>
-						<span class="school">Instituto Federal de Educação, Ciência e Tecnologia Baiano</span>
-					</div>
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> December 2022 - February 2023</span>
-						<h3>Advanced English</h3>
-						<p> Completed an intensive program designed for students with a strong foundation in English.
-							Developed advanced skills in reading, writing, speaking, and listening through analysis of
-							complex texts and focused practice. </p>
-						<span class="school">Prime Cursos</span>
-					</div>
-				</div>				<div class="col-md-6">
-
-
-					<h2 class="mb-5">Experience</h2>
-					
-					<div class="resume-item mb-3">
-						<span class="date"><span class="icon-calendar"></span> November 2024 - Present</span>
-						<h3>Software Engineer</h3>
-						<p>Working with functional programming to develop and improve business solutions.</p>
-
-						<ul>
-							<li>Worked on <strong>Elixir/GraphQL</strong> API gateway serving thousands of daily requests</li>
-							<li>Maintained real-time messaging infrastructure using Phoenix/LiveView and OTP</li>
-							<li>Reduced processing latency through custom Oban schedulers and optimized Ecto queries</li>
-							<li>Implemented property-based testing achieving better coverage across mission-critical services</li>
-						</ul>
-						
-						<div class="mt-3">
-							<span class="skill-tag">Elixir</span>
-							<span class="skill-tag">Phoenix</span>
-							<span class="skill-tag">GraphQL</span>
-							<span class="skill-tag">React.js</span>
-						</div>
-						<span class="school">Podium</span>
-					</div>
-
-					<div class="resume-item mb-3">
-						<span class="date"><span class="icon-calendar"></span> August 2021 - November 2024</span>
-						<h3>Back-End Developer</h3>
-						<p>Worked in the credit engine squad, designing and developing solutions to improve the loan
-							application flow using the Elixir framework with Phoenix.</p>
-
-						<ul>
-							<li>Designed and implemented credit scoring API solutions</li>
-							<li>Integrated with banking systems and financial services</li>
-							<li>Optimized database queries for performance and scalability</li>
-							<li>Collaborated in an agile environment with cross-functional teams</li>
-						</ul>
-						
-						<div class="mt-3">
-							<span class="skill-tag">Elixir</span>
-							<span class="skill-tag">Phoenix</span>
-							<span class="skill-tag">Next.js</span>
-							<span class="skill-tag">React.js</span>
-							<span class="skill-tag">PostgreSQL</span>
-						</div>
-						<span class="school">Money Money Invest</span>
-					</div>
-					<div class="resume-item mb-3">
-						<span class="date"><span class="icon-calendar"></span> December 2020 - July 2021</span>
-						<h3>Full Stack Developer</h3>
-						<p>Developed mobile and web applications focused on field service management and route optimization.</p>
-						<ul>
-							<li>Built iTecnico: A React Native app that helps field technicians make adjustments in connection and customer registration</li>
-							<li>Developed Micksell: Mobile and Web platform for tracking routes and auditing approaches by external vendors in real time</li>
-							<li>Created RESTful APIs with Node.js for mobile application backends</li>
-							<li>Implemented process automation and third-party system integrations</li>
-						</ul>
-						
-						<div class="mt-3">
-							<span class="skill-tag">React Native</span>
-							<span class="skill-tag">Node.js</span>
-							<span class="skill-tag">REST APIs</span>
-							<span class="skill-tag">JavaScript</span>
-						</div>
-						<span class="school">Micks Brasil</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> <!-- .section -->
-
-	<section class="site-section" id="section-about">
-		<div class="container">
-			<div class="row mb-5 align-items-center">
-				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-					<img src="images/eu.png" alt="Image placeholder" class="img-fluid">
-				</div>
-				<div class="col-lg-5 pl-lg-5">
-					<div class="section-heading">
-						<h2>About <strong class="gradient-text">me</strong></h2>
-					</div>
-					<p class="lead">First and foremost, I am passionate about technology and its transformative potential.
-						My journey began with computational vision programming during college, and I've been captivated by
-						software development ever since.
-					</p>
-					<p class="mb-5">I'm currently specializing in functional programming with <span class="skill-tag">Elixir</span>
-						and the <span class="skill-tag">Phoenix Framework</span>, along with modern frontend technologies like
-						<span class="skill-tag">React.js</span>. My expertise in building scalable backend systems is complemented
-						by experience with <span class="skill-tag">GraphQL</span> and <span class="skill-tag">PostgreSQL</span>.
-						As a programming enthusiast, I'm constantly seeking to expand my skills and embrace new technologies.
-					</p>
-
-					<p>
-						<a href="#section-contact" class="btn btn-primary px-4 py-2 mr-3 smoothscroll">Hire
-							me</a>
-						<a href="Guilherme-Xavier.pdf" download class="btn btn-secondary px-4 py-2">Download
-							CV</a>
-					</p>
-				</div>
-			</div>
-
-
-		</div>
-	</section>
-
-
-
-
-	<section class="site-section pb-0" id="section-services">
-		<div class="container">
-
-			<div class="row mb-4">
-				<div class="col-md-12">
-					<div class="section-heading text-center">
-						<h2>My <strong class="gradient-text">services</strong></h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 col-lg-4 text-center mb-5">
-					<div class="site-service-item site-animate fadeIn site-animated" data-animate-effect="fadeIn">
-						<span class="icon">
-							<span class="icon-code"></span>
-						</span>
-						<h3 class="mb-4">Backend Development</h3>
-						<p>Scalable API development with Elixir/Phoenix and optimized database solutions. Specialized in GraphQL APIs, messaging systems, and high-performance server applications.</p>
-						<div class="mt-3">
-							<span class="skill-tag">Elixir</span>
-							<span class="skill-tag">Phoenix</span>
-							<span class="skill-tag">GraphQL</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4 text-center mb-5">
-					<div class="site-service-item site-animate fadeIn site-animated" data-animate-effect="fadeIn">
-						<span class="icon">
-							<span class="icon-mobile"></span>
-						</span>
-						<h3 class="mb-4">Mobile Development</h3>
-						<p>Creating beautiful, responsive applications for iOS and Android platforms using React Native. Focus on performance optimization and seamless user experience.</p>
-						<div class="mt-3">
-							<span class="skill-tag">React Native</span>
-							<span class="skill-tag">JavaScript</span>
-							<span class="skill-tag">Mobile UX</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4 text-center mb-5">
-					<div class="site-service-item site-animate fadeIn site-animated" data-animate-effect="fadeIn">
-						<span class="icon">
-							<span class="icon-browser2"></span>
-						</span>
-						<h3 class="mb-4">Frontend Development</h3>
-						<p>Modern web applications built with React.js and Next.js. Focused on creating responsive, accessible, and visually appealing user interfaces with optimal performance.</p>
-						<div class="mt-3">
-							<span class="skill-tag">React.js</span>
-							<span class="skill-tag">Next.js</span>
-							<span class="skill-tag">Responsive Design</span>
-						</div>
-					</div>
+			<div class="gx-hero-figure" data-reveal="2">
+				<figure class="blueprint duotone gx-photo">
+					<img src="images/eu.png" alt="Guilherme Xavier" width="800" height="1000">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+				</figure>
+				<div class="gx-figcaption">
+					<span>Fig. 01 · Salt Lake City - Utah</span>
+					<span>Hover for color</span>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<div class="gx-shell">
 
+		<section id="experience" class="gx-section">
+			<div data-reveal="0">
+				<span class="gx-eyebrow">01 · Experience</span>
+				<hr class="gx-rule">
+			</div>
 
-
-
-
-	<section class="site-section" id="section-contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mb-5">
-					<div class="section-heading text-center">
-						<h2>Get <strong class="gradient-text">in touch</strong> with me</h2>
-						<p class="mt-4">Interested in working together or have questions about my services? Send me a message!</p>
-					</div>
+			<article class="gx-row" data-reveal="1">
+				<div class="gx-row-meta">
+					<div class="gx-row-period">Nov 2024 – present</div>
+					<div>Podium</div>
 				</div>
-
-				<script src="https://code.jquery.com/jquery-3.4.1.js"
-					integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
-					</script>
-
-				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="https://api.sheetmonkey.io/form/r6r7oZmakaAV6TT1NGhuB1" method="POST"
-						class="site-form">
-						<h3 class="mb-5">Contact me</h3>
-						<div class="form-group">
-							<input type="text" name="nome" class="form-control px-3 py-4" placeholder="Name">
-						</div>
-						<div class="form-group">
-							<input type="email" name="email" class="form-control px-3 py-4" placeholder="Email">
-						</div>
-						<div class="form-group">
-							<input type="phone" name="telefone" class="form-control px-3 py-4" placeholder="Phone">
-						</div>
-						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4" cols="30" rows="10" name="mensagem"
-								placeholder="Leave a message"></textarea>
-						</div>
-						<div class="form-group">
-							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send message">
-						</div>
-					</form>
+				<div class="gx-rail" aria-hidden="true">
+					<span class="gx-rail-mark"><span class="gx-dot"></span></span>
 				</div>
-				<div class="col-md-5 pl-md-5">
-					<h3 class="mb-5">Contact info</h3>
-					<ul class="site-contact-details">
-						<li>
-							<span class="text-uppercase">Email</span>
-							contato@guixavier.com.br
-						</li>
-						<li>
-							<span class="text-uppercase">Address</span>Guanambi - BA<br><br>
-						</li>
+				<div>
+					<h2>Software Engineer</h2>
+					<p class="gx-row-summary">Functional programming on business-critical services: an API gateway,
+						messaging infrastructure and background processing.</p>
+					<ul class="gx-row-points">
+						<li>Elixir/GraphQL API gateway serving thousands of requests a day</li>
+						<li>Real-time messaging on Phoenix LiveView and OTP</li>
+						<li>Lower processing latency via custom Oban schedulers and tuned Ecto queries</li>
+						<li>Search and event pipelines on Elasticsearch and Kafka</li>
+						<li>Oban best practices applied to boost background-job performance</li>
+						<li>Property-based testing across mission-critical services</li>
 					</ul>
+					<div class="gx-row-stack">
+						<span class="tag tag-neutral">Elixir</span>
+						<span class="tag tag-neutral">Phoenix</span>
+						<span class="tag tag-neutral">GraphQL</span>
+						<span class="tag tag-neutral">React</span>
+						<span class="tag tag-neutral">Elasticsearch</span>
+						<span class="tag tag-neutral">Kafka</span>
+					</div>
 				</div>
+			</article>
+
+			<article class="gx-row" data-reveal="1">
+				<div class="gx-row-meta">
+					<div class="gx-row-period">Aug 2021 – Nov 2024</div>
+					<div>Money Money Invest</div>
+				</div>
+				<div class="gx-rail" aria-hidden="true">
+					<span class="gx-rail-mark"><span class="gx-cross"></span></span>
+				</div>
+				<div>
+					<h2>Back-End Developer</h2>
+					<p class="gx-row-summary">Credit engine squad. Designed and shipped the services behind the loan
+						application flow on Elixir and Phoenix.</p>
+					<ul class="gx-row-points">
+						<li>Credit scoring APIs</li>
+						<li>Integrations with banks and financial services</li>
+						<li>Query optimization for performance and scale</li>
+						<li>Agile work with cross-functional teams</li>
+					</ul>
+					<div class="gx-row-stack">
+						<span class="tag tag-neutral">Elixir</span>
+						<span class="tag tag-neutral">Phoenix</span>
+						<span class="tag tag-neutral">Next.js</span>
+						<span class="tag tag-neutral">PostgreSQL</span>
+					</div>
+				</div>
+			</article>
+
+			<article class="gx-row" data-reveal="1">
+				<div class="gx-row-meta">
+					<div class="gx-row-period">Dec 2020 – Jul 2021</div>
+					<div>Micks Brasil</div>
+				</div>
+				<div class="gx-rail" aria-hidden="true">
+					<span class="gx-rail-mark"><span class="gx-cross"></span></span>
+				</div>
+				<div>
+					<h2>Full Stack Developer</h2>
+					<p class="gx-row-summary">Mobile and web tools for field service management and route
+						optimization.</p>
+					<ul class="gx-row-points">
+						<li>iTecnico: React Native app for field technicians (connection adjustments, customer
+							registration)</li>
+						<li>Micksell: web and mobile platform for real-time route tracking and vendor audits</li>
+						<li>REST APIs in Node.js for the mobile back ends</li>
+						<li>Process automation and third-party integrations</li>
+					</ul>
+					<div class="gx-row-stack">
+						<span class="tag tag-neutral">React Native</span>
+						<span class="tag tag-neutral">Node.js</span>
+						<span class="tag tag-neutral">REST</span>
+						<span class="tag tag-neutral">JavaScript</span>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section id="education" class="gx-section">
+			<div data-reveal="0">
+				<span class="gx-eyebrow">02 · Education</span>
+				<hr class="gx-rule">
+			</div>
+			<div class="gx-two">
+				<div class="blueprint gx-card" data-reveal="1">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path>
+							<path d="M22 10v6"></path>
+							<path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+						</svg>
+						<span class="gx-card-meta">2018 – present</span>
+					</div>
+					<h3>Systems Analysis and Development</h3>
+					<p>Degree program at IF Baiano with a focus on web and mobile development, databases and information
+						security.</p>
+				</div>
+				<div class="blueprint gx-card" data-reveal="2">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<path d="m5 8 6 6"></path>
+							<path d="m4 14 6-6 2-3"></path>
+							<path d="M2 5h12"></path>
+							<path d="M7 2h1"></path>
+							<path d="m22 22-5-10-5 10"></path>
+							<path d="M14 18h6"></path>
+						</svg>
+						<span class="gx-card-meta">Dec 2022 – Feb 2023</span>
+					</div>
+					<h3>Advanced English</h3>
+					<p>Intensive program at Prime Cursos for advanced speakers: reading, writing, speaking and listening
+						through complex texts.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="services" class="gx-section">
+			<div data-reveal="0">
+				<span class="gx-eyebrow">03 · What I work on</span>
+				<hr class="gx-rule">
+			</div>
+			<div class="gx-three">
+				<div class="blueprint gx-card gx-service" data-reveal="1">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<rect width="20" height="8" x="2" y="2" rx="1"></rect>
+							<rect width="20" height="8" x="2" y="14" rx="1"></rect>
+							<path d="M6 6h.01"></path>
+							<path d="M6 18h.01"></path>
+						</svg>
+						<span class="gx-card-index">01</span>
+					</div>
+					<h3>Back-end systems</h3>
+					<p>Scalable APIs on Elixir and Phoenix: GraphQL, messaging, and high-throughput server work on
+						carefully tuned databases.</p>
+					<div class="gx-service-stack">Elixir · Phoenix · GraphQL · PostgreSQL</div>
+				</div>
+				<div class="blueprint gx-card gx-service" data-reveal="2">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<rect width="18" height="18" x="3" y="3" rx="1"></rect>
+							<path d="M3 9h18"></path>
+							<path d="M9 21V9"></path>
+						</svg>
+						<span class="gx-card-index">02</span>
+					</div>
+					<h3>Front-end</h3>
+					<p>React and Next.js interfaces that are responsive, accessible and fast, built against APIs I
+						understand end to end.</p>
+					<div class="gx-service-stack">React · Next.js</div>
+				</div>
+				<div class="blueprint gx-card gx-service" data-reveal="3">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<rect width="14" height="20" x="5" y="2" rx="1"></rect>
+							<path d="M12 18h.01"></path>
+						</svg>
+						<span class="gx-card-index">03</span>
+					</div>
+					<h3>Mobile</h3>
+					<p>React Native apps for iOS and Android with a focus on performance and a clear, dependable user
+						experience.</p>
+					<div class="gx-service-stack">React Native · JavaScript</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="gx-section">
+			<div data-reveal="0">
+				<span class="gx-eyebrow">04 · About</span>
+				<hr class="gx-rule">
+			</div>
+			<div class="gx-two gx-about">
+				<div data-reveal="1">
+					<h2>Started in computer vision. Stayed for the systems.</h2>
+					<p>My first real programming was computer vision work in college. What kept me was the architecture
+						underneath: how services talk, fail and recover.</p>
+					<p>Today that means functional programming with Elixir and Phoenix, GraphQL and PostgreSQL on the
+						back end, and React on the front. I like problems where correctness and throughput both matter.
+					</p>
+					<div class="gx-actions">
+						<a class="btn btn-primary" href="#contact">Hire me</a>
+						<a class="btn btn-ghost" href="Guilherme-Xavier.pdf">Download CV</a>
+					</div>
+				</div>
+				<div class="blueprint gx-toolbox" data-reveal="2">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-toolbox-head">
+						<span>Toolbox</span>
+						<span>Rev 2026</span>
+					</div>
+					<table class="table">
+						<tbody>
+							<tr>
+								<th scope="row">Languages</th>
+								<td>Elixir, JavaScript, SQL</td>
+							</tr>
+							<tr>
+								<th scope="row">Frameworks</th>
+								<td>Phoenix, LiveView, React, Next.js, React Native, Node.js</td>
+							</tr>
+							<tr>
+								<th scope="row">Data &amp; infra</th>
+								<td>PostgreSQL, Ecto, Oban, GraphQL</td>
+							</tr>
+							<tr>
+								<th scope="row">Practice</th>
+								<td>OTP, property-based testing, API design</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<section id="contact" class="gx-dark gx-section">
+		<div class="gx-shell">
+			<div data-reveal="0">
+				<span class="gx-eyebrow">05 · Contact</span>
+				<hr class="gx-rule">
+			</div>
+			<div class="gx-two gx-contact">
+				<div data-reveal="1">
+					<h2>Say hello.</h2>
+					<p class="gx-contact-lede">Back-end architecture, real-time systems, or a React front end that needs
+						a solid API behind it. Email is fastest.</p>
+					<dl class="gx-details">
+						<dt>Email</dt>
+						<dd><a href="mailto:contato@guixavier.com.br">contato@guixavier.com.br</a></dd>
+						<dt>Based</dt>
+						<dd>Guanambi, Bahia, Brazil</dd>
+						<dt>Links</dt>
+						<dd class="gx-details-links">
+							<a href="https://www.linkedin.com/in/guilherme-xavier-developer/" target="_blank"
+								rel="noopener noreferrer">LinkedIn</a>
+							<a href="https://github.com/guilherme-x" target="_blank"
+								rel="noopener noreferrer">GitHub</a>
+						</dd>
+					</dl>
+				</div>
+				<form class="gx-form" data-reveal="2" action="https://api.sheetmonkey.io/form/r6r7oZmakaAV6TT1NGhuB1"
+					method="POST">
+					<div class="gx-two">
+						<div class="field">
+							<label for="gx-name">Name</label>
+							<input class="input" id="gx-name" name="nome" type="text" autocomplete="name" required
+								placeholder="Your name">
+						</div>
+						<div class="field">
+							<label for="gx-email">Email</label>
+							<input class="input" id="gx-email" name="email" type="email" autocomplete="email" required
+								placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="field">
+						<label for="gx-msg">Message</label>
+						<textarea class="input" id="gx-msg" name="mensagem" rows="6" required
+							placeholder="What are you building?"></textarea>
+					</div>
+					<div class="gx-submit-row">
+						<button class="btn btn-primary" type="submit">Send message</button>
+						<span class="gx-sent" id="gx-sent" role="status" hidden>Thanks. I will reply by email.</span>
+					</div>
+				</form>
 			</div>
 		</div>
 	</section>
 
+	</main>
 
-	<footer class="site-footer">
-		<div class="container">
-			<div class="row mb-4">
-				<div class="col-md-12 text-center">
-					<h3 class="gradient-text mb-4">Guilherme Xavier</h3>
-					<p class="mb-4">Software Engineer & Full-Stack Developer</p>
-					<p>
-						<a href="https://www.linkedin.com/in/guilherme-xavier-developer/" target="_blank"
-							class="social-item"><span class="icon-linkedin2"></span></a>
-						<a href="https://github.com/guilherme-x" target="_blank"
-							class="social-item"><span class="icon-github"></span></a>
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<p class="mt-4">&copy; <script>document.write(new Date().getFullYear())</script> Guilherme Xavier. All Rights Reserved.</p>
-				</div>
+	<footer class="gx-dark gx-footer-band">
+		<div class="gx-shell">
+			<div class="gx-footer">
+				<span>© Guilherme Xavier</span>
+				<span>Software Engineer · Elixir, Phoenix, GraphQL, React</span>
 			</div>
 		</div>
 	</footer>
 
-
-
-
-	<script src="js/vendor/jquery.min.js"></script>
-	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/vendor/popper.min.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-
-	<script src="js/vendor/jquery.easing.1.3.js"></script>
-
-	<script src="js/vendor/jquery.stellar.min.js"></script>
-	<script src="js/vendor/jquery.waypoints.min.js"></script>
-
-	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-	<script src="js/custom.js"></script>
-
-	<!-- Google Map -->
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    	<script src="js/google-map.js"></script> -->
-
-
+	<script src="js/portfolio.js"></script>
 </body>
 
 </html>
