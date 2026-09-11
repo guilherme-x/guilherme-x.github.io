@@ -9,7 +9,7 @@
 	<title>Guilherme Xavier — Software Engineer</title>
 	<meta name="title" content="Guilherme Xavier - Portfolio">
 	<meta name="description"
-		content="Software engineer with five years of experience building back-end systems that stay fast under load: GraphQL gateways, real-time messaging on Phoenix and OTP, credit engines, and the React interfaces on top of them.">
+		content="Software engineer building back-end systems that stay fast under load since 2020: GraphQL gateways, real-time messaging on Phoenix and OTP, credit engines, and the React interfaces on top of them.">
 	<meta name="keywords" content="elixir, phoenix, graphql, react, software engineer, portfólio, guilherme xavier">
 	<meta name="robots" content="index, follow">
 	<meta name="language" content="English">
@@ -19,13 +19,23 @@
 		content="Back-end systems on Elixir and Phoenix: GraphQL gateways, real-time messaging, and the React interfaces on top of them.">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://guixavier.com.br/">
-	<meta property="og:image" content="https://guixavier.com.br/images/tech2.png">
+	<meta property="og:image" content="https://guixavier.com.br/images/og.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="Guilherme Xavier, software engineer. Elixir at the core.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Guilherme Xavier — Software Engineer">
+	<meta name="twitter:description"
+		content="Back-end systems on Elixir and Phoenix: GraphQL gateways, real-time messaging, and the React interfaces on top of them.">
+	<meta name="twitter:image" content="https://guixavier.com.br/images/og.jpg">
+	<meta name="theme-color" content="#f2f2f3">
+	<link rel="canonical" href="https://guixavier.com.br/">
 
 	<link rel="shortcut icon" href="images/G.png" type="image/x-icon">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Barlow+Condensed:wght@400;600&display=swap">
+	<link rel="preload" href="fonts/barlow-condensed-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/barlow-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="images/eu-840.webp" as="image" type="image/webp">
 	<link rel="stylesheet" href="css/industry.css">
 	<link rel="stylesheet" href="css/portfolio.css">
 
@@ -37,40 +47,67 @@
 		gtag('js', new Date());
 		gtag('config', 'G-R73F04QP95');
 	</script>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Guilherme Xavier",
+		"url": "https://guixavier.com.br/",
+		"image": "https://guixavier.com.br/images/eu-840.jpg",
+		"jobTitle": "Software Engineer",
+		"worksFor": { "@type": "Organization", "name": "Podium" },
+		"address": { "@type": "PostalAddress", "addressLocality": "Guanambi", "addressRegion": "Bahia", "addressCountry": "BR" },
+		"knowsAbout": ["Elixir", "Phoenix", "GraphQL", "PostgreSQL", "React", "OTP"],
+		"sameAs": ["https://www.linkedin.com/in/guilherme-xavier-developer/", "https://github.com/guilherme-x"]
+	}
+	</script>
 </head>
 
 <body>
 
-	<nav class="nav gx-nav">
+	<a class="gx-skip" href="#main">Skip to content</a>
+	<div class="gx-ambient" aria-hidden="true"><span></span><span></span><span></span></div>
+
+	<nav class="nav gx-nav glass">
 		<a href="#top" class="nav-brand">Guilherme Xavier</a>
-		<div class="gx-navlinks">
+		<div class="gx-navlinks" id="gx-navlinks">
 			<a href="#experience">Experience</a>
-			<a href="#services">Services</a>
+			<a href="#expertise">Expertise</a>
 			<a href="#about">About</a>
 		</div>
 		<a class="btn btn-primary" href="#contact">Say hello</a>
+		<button class="gx-menu-btn" type="button" aria-expanded="false" aria-controls="gx-navlinks" aria-label="Menu">
+			<svg class="gx-icon-menu" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+				stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M4 6h16"></path><path d="M4 12h16"></path><path d="M4 18h16"></path>
+			</svg>
+			<svg class="gx-icon-close" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+				stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M18 6 6 18"></path><path d="m6 6 12 12"></path>
+			</svg>
+		</button>
 	</nav>
 
-	<main>
+	<main id="main">
 
 	<section id="top" class="gx-hero-section">
 		<div class="gx-grid-bg" aria-hidden="true"></div>
 		<div class="gx-hero">
 			<div class="gx-hero-copy" data-reveal="0">
-				<p class="gx-status">
+				<p class="gx-status glass">
 					<span class="gx-dot" aria-hidden="true"></span>
-					<span>Currently · Software Engineer at Podium</span>
+					<span>Software Engineer · Podium</span>
 				</p>
 				<h1>
 					<span>Software engineer.</span>
 					<span class="gx-accent">Elixir at the core.</span>
 				</h1>
 				<p class="gx-lede">Olá. I build back-end systems that stay fast under load: GraphQL gateways, real-time
-					messaging on Phoenix and OTP, credit engines, and the React interfaces on top of them. Five years in,
+					messaging on Phoenix and OTP, credit engines, and the React interfaces on top of them. Building since 2020,
 					working from Brazil.</p>
 				<div class="gx-actions">
 					<a class="btn btn-primary" href="#experience">See experience</a>
-					<a class="btn btn-secondary" href="Guilherme-Xavier.pdf">Download CV</a>
+					<a class="btn btn-secondary" href="Guilherme-Xavier.pdf" type="application/pdf">Download CV</a>
 				</div>
 				<div class="gx-tags">
 					<span class="tag tag-accent">Elixir</span>
@@ -82,13 +119,17 @@
 			</div>
 			<div class="gx-hero-figure" data-reveal="2">
 				<figure class="blueprint duotone gx-photo">
-					<img src="images/eu.png" alt="Guilherme Xavier" width="800" height="1000">
+					<picture>
+						<source srcset="images/eu-840.webp" type="image/webp">
+						<img src="images/eu-840.jpg" width="840" height="1050" fetchpriority="high" decoding="async"
+							alt="Guilherme Xavier standing by a lake with snow-capped mountains behind him, near Salt Lake City">
+					</picture>
+					<figcaption class="gx-photo-caption glass">
+						<span>Fig. 01 · Salt Lake City, Utah</span>
+						<span><span class="gx-hover-only">Hover for color</span><span class="gx-tap-only">Tap for color</span></span>
+					</figcaption>
 					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
 				</figure>
-				<div class="gx-figcaption">
-					<span>Fig. 01 · Salt Lake City - Utah</span>
-					<span>Hover for color</span>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -114,11 +155,10 @@
 					<p class="gx-row-summary">Functional programming on business-critical services: an API gateway,
 						messaging infrastructure and background processing.</p>
 					<ul class="gx-row-points">
-						<li>Elixir/GraphQL API gateway serving thousands of requests a day</li>
+						<li>Elixir/GraphQL API gateway serving production traffic</li>
 						<li>Real-time messaging on Phoenix LiveView and OTP</li>
-						<li>Lower processing latency via custom Oban schedulers and tuned Ecto queries</li>
+						<li>Cut processing latency with custom Oban schedulers, tuned Ecto queries and background-job best practices</li>
 						<li>Search and event pipelines on Elasticsearch and Kafka</li>
-						<li>Oban best practices applied to boost background-job performance</li>
 						<li>Property-based testing across mission-critical services</li>
 					</ul>
 					<div class="gx-row-stack">
@@ -148,7 +188,6 @@
 						<li>Credit scoring APIs</li>
 						<li>Integrations with banks and financial services</li>
 						<li>Query optimization for performance and scale</li>
-						<li>Agile work with cross-functional teams</li>
 					</ul>
 					<div class="gx-row-stack">
 						<span class="tag tag-neutral">Elixir</span>
@@ -176,7 +215,6 @@
 							registration)</li>
 						<li>Micksell: web and mobile platform for real-time route tracking and vendor audits</li>
 						<li>REST APIs in Node.js for the mobile back ends</li>
-						<li>Process automation and third-party integrations</li>
 					</ul>
 					<div class="gx-row-stack">
 						<span class="tag tag-neutral">React Native</span>
@@ -188,57 +226,13 @@
 			</article>
 		</section>
 
-		<section id="education" class="gx-section">
+		<section id="expertise" class="gx-section">
 			<div data-reveal="0">
-				<span class="gx-eyebrow">02 · Education</span>
-				<hr class="gx-rule">
-			</div>
-			<div class="gx-two">
-				<div class="blueprint gx-card" data-reveal="1">
-					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
-					<div class="gx-card-head">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-							aria-hidden="true">
-							<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path>
-							<path d="M22 10v6"></path>
-							<path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-						</svg>
-						<span class="gx-card-meta">2018 – 2022</span>
-					</div>
-					<h3>Systems Analysis and Development</h3>
-					<p>Degree program at IF Baiano with a focus on web and mobile development, databases and information
-						security.</p>
-				</div>
-				<div class="blueprint gx-card" data-reveal="2">
-					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
-					<div class="gx-card-head">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-							aria-hidden="true">
-							<path d="m5 8 6 6"></path>
-							<path d="m4 14 6-6 2-3"></path>
-							<path d="M2 5h12"></path>
-							<path d="M7 2h1"></path>
-							<path d="m22 22-5-10-5 10"></path>
-							<path d="M14 18h6"></path>
-						</svg>
-						<span class="gx-card-meta">Dec 2022 – Feb 2023</span>
-					</div>
-					<h3>Advanced English</h3>
-					<p>Intensive program at Prime Cursos for advanced speakers: reading, writing, speaking and listening
-						through complex texts.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="services" class="gx-section">
-			<div data-reveal="0">
-				<span class="gx-eyebrow">03 · What I work on</span>
+				<span class="gx-eyebrow">02 · Expertise</span>
 				<hr class="gx-rule">
 			</div>
 			<div class="gx-three">
-				<div class="blueprint gx-card gx-service" data-reveal="1">
+				<div class="blueprint glass gx-card gx-service" data-reveal="1">
 					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
 					<div class="gx-card-head">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -256,7 +250,22 @@
 						carefully tuned databases.</p>
 					<div class="gx-service-stack">Elixir · Phoenix · GraphQL · PostgreSQL</div>
 				</div>
-				<div class="blueprint gx-card gx-service" data-reveal="2">
+				<div class="blueprint glass gx-card gx-service" data-reveal="2">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"></path>
+						</svg>
+						<span class="gx-card-index">02</span>
+					</div>
+					<h3>Real-time &amp; data</h3>
+					<p>Messaging on Phoenix LiveView and OTP, search and event pipelines on Elasticsearch and Kafka, and
+						background processing that stays predictable on Oban.</p>
+					<div class="gx-service-stack">Phoenix · OTP · Kafka · Elasticsearch · Oban</div>
+				</div>
+				<div class="blueprint glass gx-card gx-service" data-reveal="3">
 					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
 					<div class="gx-card-head">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -266,35 +275,19 @@
 							<path d="M3 9h18"></path>
 							<path d="M9 21V9"></path>
 						</svg>
-						<span class="gx-card-index">02</span>
+						<span class="gx-card-index">03</span>
 					</div>
 					<h3>Front-end</h3>
 					<p>React and Next.js interfaces that are responsive, accessible and fast, built against APIs I
 						understand end to end.</p>
-					<div class="gx-service-stack">React · Next.js</div>
-				</div>
-				<div class="blueprint gx-card gx-service" data-reveal="3">
-					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
-					<div class="gx-card-head">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-							aria-hidden="true">
-							<rect width="14" height="20" x="5" y="2" rx="1"></rect>
-							<path d="M12 18h.01"></path>
-						</svg>
-						<span class="gx-card-index">03</span>
-					</div>
-					<h3>Mobile</h3>
-					<p>React Native apps for iOS and Android with a focus on performance and a clear, dependable user
-						experience.</p>
-					<div class="gx-service-stack">React Native · JavaScript</div>
+					<div class="gx-service-stack">React · Next.js · React Native</div>
 				</div>
 			</div>
 		</section>
 
 		<section id="about" class="gx-section">
 			<div data-reveal="0">
-				<span class="gx-eyebrow">04 · About</span>
+				<span class="gx-eyebrow">03 · About</span>
 				<hr class="gx-rule">
 			</div>
 			<div class="gx-two gx-about">
@@ -306,15 +299,15 @@
 						back end, and React on the front. I like problems where correctness and throughput both matter.
 					</p>
 					<div class="gx-actions">
-						<a class="btn btn-primary" href="#contact">Hire me</a>
-						<a class="btn btn-ghost" href="Guilherme-Xavier.pdf">Download CV</a>
+						<a class="btn btn-primary" href="#contact">Say hello</a>
+						<a class="btn btn-ghost" href="Guilherme-Xavier.pdf" type="application/pdf">Download CV</a>
 					</div>
 				</div>
-				<div class="blueprint gx-toolbox" data-reveal="2">
+				<div class="blueprint glass gx-toolbox" data-reveal="2">
 					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
 					<div class="gx-toolbox-head">
 						<span>Toolbox</span>
-						<span>Rev 2026</span>
+						<span>Rev <span data-year>2026</span></span>
 					</div>
 					<table class="table">
 						<tbody>
@@ -339,9 +332,55 @@
 				</div>
 			</div>
 		</section>
+
+		<section id="education" class="gx-section">
+			<div data-reveal="0">
+				<span class="gx-eyebrow">04 · Education</span>
+				<hr class="gx-rule">
+			</div>
+			<div class="gx-two">
+				<div class="blueprint glass gx-card" data-reveal="1">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path>
+							<path d="M22 10v6"></path>
+							<path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+						</svg>
+						<span class="gx-card-meta">2018 – 2022</span>
+					</div>
+					<h3>Systems Analysis and Development</h3>
+					<p>Degree program at IF Baiano with a focus on web and mobile development, databases and information
+						security.</p>
+				</div>
+				<div class="blueprint glass gx-card" data-reveal="2">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<div class="gx-card-head">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+							aria-hidden="true">
+							<path d="m5 8 6 6"></path>
+							<path d="m4 14 6-6 2-3"></path>
+							<path d="M2 5h12"></path>
+							<path d="M7 2h1"></path>
+							<path d="m22 22-5-10-5 10"></path>
+							<path d="M14 18h6"></path>
+						</svg>
+						<span class="gx-card-meta">Dec 2022 – Feb 2023</span>
+					</div>
+					<h3>Advanced English</h3>
+					<p>Intensive program at Prime Cursos for advanced speakers: reading, writing, speaking and listening
+						through complex texts.</p>
+				</div>
+			</div>
+		</section>
 	</div>
 
 	<section id="contact" class="gx-dark gx-section">
+		<span class="gx-glow gx-glow-a" aria-hidden="true"></span>
+		<span class="gx-glow gx-glow-b" aria-hidden="true"></span>
 		<div class="gx-shell">
 			<div data-reveal="0">
 				<span class="gx-eyebrow">05 · Contact</span>
@@ -366,8 +405,12 @@
 						</dd>
 					</dl>
 				</div>
-				<form class="gx-form" data-reveal="2" action="https://api.sheetmonkey.io/form/r6r7oZmakaAV6TT1NGhuB1"
+				<form class="gx-form blueprint glass glass-dark" data-reveal="2" action="https://api.sheetmonkey.io/form/r6r7oZmakaAV6TT1NGhuB1"
 					method="POST">
+					<i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+					<p class="gx-hp" aria-hidden="true">
+						<label>Leave this field empty <input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+					</p>
 					<div class="gx-two">
 						<div class="field">
 							<label for="gx-name">Name</label>
@@ -388,6 +431,8 @@
 					<div class="gx-submit-row">
 						<button class="btn btn-primary" type="submit">Send message</button>
 						<span class="gx-sent" id="gx-sent" role="status" hidden>Thanks. I will reply by email.</span>
+						<span class="gx-form-error" id="gx-form-error" role="alert" hidden>Could not send. Email me at
+							contato@guixavier.com.br instead.</span>
 					</div>
 				</form>
 			</div>
@@ -399,7 +444,7 @@
 	<footer class="gx-dark gx-footer-band">
 		<div class="gx-shell">
 			<div class="gx-footer">
-				<span>© Guilherme Xavier</span>
+				<span>© <span data-year>2026</span> Guilherme Xavier</span>
 				<span>Software Engineer · Elixir, Phoenix, GraphQL, React</span>
 			</div>
 		</div>
